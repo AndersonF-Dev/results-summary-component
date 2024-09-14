@@ -1,0 +1,20 @@
+@media(max-width: 625px) {
+    body {
+        background-color: rgb(10, 10, 10);
+        max-height: 780px;
+    }
+    .conteiner-card {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+    .card-result {
+        min-width: 350px;
+        min-height: 300px;
+    }
+
+    .result-valor {
+        min-width: 40%;
+        min-height: 40%;
+    }
+}

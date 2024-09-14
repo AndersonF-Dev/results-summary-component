@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+html {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-card {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 800px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(48, 59, 90, 0.377);
+
+}
+.card-result {
+   background-image: linear-gradient(to bottom, hsl(252, 98%, 63%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: flex;flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 300px;
+    height: 390px;
+    padding: 35px;
+}
+
+.text-card-result {
+    color: hsl(241, 100%, 89%);
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.card-result > h1 {
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+.result-valor {
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: none;
+    width: 70%;
+    height: 50%;
+}
+
+.result-valor-destaque {
+    font-weight: 800;
+    color: hsl(0, 0%, 100%);
+    font-size: 52px;
+}
+.result-valor {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+}
+
+.paragraphs-card-result {
+    margin-top: 10px;
+    color: hsl(241, 100%, 89%);
+}
+
+.conteiner-summary {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 390px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.title-summary {
+    margin: 45px 0px 10px 30px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.card-summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+.card-summary-informacao-reaction {
+    background-color: hsla(0, 100%, 67%, 0.096);
+    display: flex;
+    padding: 13px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cor-text-reaction {
+    margin-left: 10px;
+    color: hsl(0, 100%, 67%);
+}
+.val-stilo {
+    margin-left: 70px;
+    color: hsl(224, 5%, 60%);
+    font-weight: 700;
+}
+
+span {
+    color:  hsl(224, 30%, 27%);
+}
+.card-memory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-summary-informacao-memory {
+    background-color: hsla(39, 100%, 56%, 0.096);
+    display: flex;
+    padding: 13px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.cor-text-memory {
+    margin-left: 10px;
+    color: hsl(39, 100%, 56%);
+}
+
+.card-verbal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-summary-informacao-verbal {
+    background-color: hsla(166, 100%, 37%, 0.096);
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cor-text-verbal {
+    margin-left: 10px;
+    color: hsl(166, 100%, 37%);
+}
+.val-stilo-verbal {
+    margin-left: 85px;
+    color: hsl(224, 5%, 60%);
+    font-weight: 700;
+}
+.card-visual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-summary-informacao-visual {
+    background-color: hsla(234, 85%, 45%, 0.096);
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.cor-text-visual {
+    margin-left: 10px;
+    color: hsl(234, 85%, 45%);
+} 
+.val-stilo-visual {
+    margin-left: 85px;
+    color: hsl(224, 5%, 60%);
+    font-weight: 700;
+}
+
+.summary-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-continue {
+    background-image: linear-gradient(to bottom,hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    padding: 13px;
+    width: 250px;
+}
+.btn-continue:hover {
+    background-image: linear-gradient(to bottom,rgb(27, 9, 77), hsl(241, 74%, 15%));
+    color: rgb(255, 255, 255);
+}
+.conteiner-summary button{
+    cursor: pointer;
+}
+
