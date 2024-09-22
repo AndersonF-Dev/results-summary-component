@@ -2,23 +2,60 @@
     body {
         display: flex;
         background-color: rgb(10, 10, 10);
-        max-height: 780px;
+        max-height: 100vh;
     }
     .conteiner-card {
-        margin-top: 35px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        background-color: white;
+        width: 299px;
+        height: 650px;
     }
-    .card-result {
-        min-width: 320px;
-        min-height: 220px;
+    .conteiner-card-result {
+        min-width: 299px;
+        min-height: 295px;
+        padding: 10px;
     }
 
     .result-valor {
-        min-width: 40%;
-        min-height: 40%;
+        width: 200px;
+    }
+    .paragraphs-card-result p{
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    .conteiner-summary{
+        width: 299px;
+        height: 349px;
+        display: flex;
+    }
+
+    .card-summary-informacao-reaction  {
+
+        width: 220px;
+        height: 43px;
+    }
+    .card-summary-informacao-memory{
+        width: 220px;
+        height: 43px;
+    }
+    .card-summary-informacao-verbal {
+        width: 220px;
+        height: 43px;
+    }
+    .card-summary-informacao-visual {
+        width: 220px;
+        height: 43px;
+    }
+    .btn-continue {
+        margin-top: 10px;
+        padding: 0px;
+        width: 220px;
+        height: 43px;
+    }
+    .attribution {
+        display: none;
     }
 }
