@@ -15,7 +15,7 @@ Mobile-preview
 ### Link
 
 
-- URL do site ativo: [link aqui](https://andersonf-dev.github.io/blog-preview-card/)
+- URL do site ativo: [link aqui](https://andersonf-dev.github.io/results-summary-component/)
 
 
 
