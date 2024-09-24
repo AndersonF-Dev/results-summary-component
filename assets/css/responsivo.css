@@ -1,7 +1,6 @@
 @media(max-width: 625px) {
     body {
         display: flex;
-        background-color: rgb(10, 10, 10);
         max-height: 100vh;
     }
     .conteiner-card {
