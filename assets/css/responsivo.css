@@ -17,10 +17,12 @@
         padding: 10px;
     }
 
-    .result-valor {
-        width: 200px;
+    .conteiner-card .conteiner-result .result-circle p {
+        display: flex;
+        color: hsl(241, 100%, 89%);
+        font-size: 1.3rem;
     }
-    .paragraphs-card-result p{
+    .paragraphs-result {
         padding: 10px;
         font-size: 1.5rem;
     }
@@ -33,7 +35,7 @@
 
     .card-summary-informacao-reaction  {
 
-        width: 220px;
+        width: 280px;
         height: 43px;
     }
     .card-summary-informacao-memory{
